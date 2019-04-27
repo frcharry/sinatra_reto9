@@ -6,6 +6,6 @@ get '/' do
   if req["HTTP_PERMISO"] == "soy-un-token-secreto"
     "Si lo logramos!"
   else
-    "Sin permiso"
+    "Sin Permiso"
   end
 end
